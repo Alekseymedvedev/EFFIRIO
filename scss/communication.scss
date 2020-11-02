@@ -1,0 +1,62 @@
+.communication{
+   padding: 30px 0px;
+    &__img-brp{
+        display: none;
+    }
+}
+@media (min-width: 576px){
+    .communication{
+        padding: 40px 0px;
+         
+     }
+}
+
+
+@media (min-width: 768px){
+    .communication{
+        padding: 50px 0px;
+        &__iner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__box{
+            max-width: 490px;
+            margin-left: 40px;
+            text-align: start;
+        }
+        &__img{
+            display: none;
+        }
+        &__img-brp{
+            display: block;
+            width: 100%;
+        }
+        &__title{
+            text-align: start;
+        }
+        &__text{
+            text-align: start;
+        }
+        button{
+            margin: 0px 0px;
+        }
+     }
+ 
+}
+
+
+@media (min-width: 992px){
+    .communication{
+        padding: 60px 0px;
+         
+     }
+}
+
+
+@media (min-width: 1200px){
+    .communication{
+        padding: 80px 0px;
+         
+     }   
+}

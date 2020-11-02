@@ -1,0 +1,180 @@
+.price{
+    padding: 30px 0px;
+    background-color: #7252DC;
+    background-image: url(../images/prce-bg.png);
+    &__title{
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;        
+        color: #FFFFFF;        
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: auto;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 30px;
+        max-width: 100%;
+        background-color: #fff;
+    }
+    &__box{
+        margin-top: 45px;
+        margin-bottom: 34px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__sub-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px; 
+        color: #2C2D31;        
+    }
+    &__text{
+        margin-left: 10px;
+        margin-right: 20px;
+        max-width: 140px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #2C2D31;        
+    }
+    &__sub-text{
+        margin: -30px auto 40px;
+        margin-bottom: 40px;
+        margin-top: -30px;
+        max-width: 260px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: rgba(44, 45, 49, 0.5);        
+    }
+    &__summ{
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        color: #2C2D31;        
+    }
+    &__btn{
+        color: #7252DC;
+        background-color: #fff;
+    }
+    &__desc{
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;        
+    }
+    button{
+        max-width: 285px;
+        margin: 0 auto;
+    }
+    img{
+        width: 100%;
+        max-width: 150px;
+    }
+}
+@media (min-width: 576px){
+    
+   
+}
+@media (min-width: 576px){
+    .price{
+        padding: 40px 0px;
+        &__sub-title{
+            font-size: 24px;
+        }
+        &__text{
+            font-size: 24px;
+        }
+      
+        &__item{
+            margin-right: 20px;
+            flex-basis: 370px;
+            width: 100%;
+           
+        }
+        &__title,
+        &__desc{
+            font-size: 24px;
+        }
+        &__desc{
+            line-height: 30px;
+        }
+        &__box-btn{
+            margin: 0 auto;
+            background-color: #7252DC;
+            color: #fff;
+        }
+    }
+}
+@media (min-width: 768px){
+    .price{
+        padding: 50px 0px;
+        &__inner{
+            justify-content: space-between;
+        }
+        &__title,
+        &__decc{
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        &__desc{
+            line-height: 35px;
+        }
+        &__inner{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__box{
+            display: block;
+        }
+        &__text{
+            margin: 10px auto;
+        }
+        &__sub-title{
+            margin-top: 15px;
+        }
+    }
+}
+@media (min-width: 992px){
+    .price{
+        padding: 60px 0px;
+        &__title,
+        &__desc{
+            font-size: 32px;
+        }
+        &__desc{
+            line-height: 40px;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .price{
+        padding: 60px 0px;
+        &__title,
+        &__desc{
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+        &__desc{
+            line-height: 47px;
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,145 @@
+.reviews{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #F5F6FA;
+    &__inner{
+        margin-bottom: 23px;
+    }
+    img{
+        max-width: 345px;
+    }
+}
+.slick-dots{
+	text-align: center;
+	li{
+		display: inline-block;	
+		margin-right: 8px;
+		button{
+			font-size: 0;
+			width: 15px;
+			height: 15px;
+			background-color: #C4C4C4;
+            border: none;
+            border-radius: 50%;
+            outline: none;
+		}
+	}
+}
+.slick-dots .slick-active{
+	button{
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		background-color: #7252DC;
+	}
+}
+.slick-next.slick-arrow,
+.slick-prev.slick-arrow{
+    display: none ;
+    font-size: 0;
+    height: 0;
+    border: none;
+    outline: none;
+}
+.slick-next.slick-arrow::after{
+    content: '\f105';
+    font-family: 'icomoon';
+    font-size: 40px;
+    position: absolute;
+    color: #7252DC;   
+    right: 50px;
+    bottom: -15px;
+    cursor: pointer;
+}
+.slick-prev.slick-arrow::after{
+    content: '\f104';
+    font-family: 'icomoon';
+    font-size: 40px;
+    position: absolute;
+    color: #7252DC;   
+    left: 40px;
+    bottom: -15px;
+    cursor: pointer;
+}
+@media (min-width: 1200px){
+    .reviews{
+        padding: 70px 0px;
+        &__inner{
+            margin-bottom: 80px;
+        }
+    }
+    .slick-next.slick-arrow::after{ 
+        right: 480px;
+    }
+    .slick-prev.slick-arrow::after{   
+        left: 475px;
+    }
+}
+@media (min-width: 576px){
+    .reviews{
+        padding: 40px 0px;
+        img{
+            padding-right: 30px;
+        }
+
+    }
+    .slick-next.slick-arrow::after{ 
+        right: 180px;
+    }
+    .slick-prev.slick-arrow::after{   
+        left: 175px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .reviews{
+        padding: 50px 0px;
+    }
+    .slick-next.slick-arrow::after{ 
+        right: 280px;
+    }
+    .slick-prev.slick-arrow::after{   
+        left: 275px;
+    }
+    &__inner{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (min-width: 992px){
+    .reviews{
+        padding: 60px 0px;
+    }
+    .slick-next.slick-arrow::after{ 
+        right: 355px;
+    }
+    .slick-prev.slick-arrow::after{   
+        left: 350px;
+    }
+    &__inner{
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 1200px){
+    .reviews{
+        padding: 70px 0px;
+        &__inner{
+            margin-bottom: 80px;
+        }
+        &__bottom-text{
+            max-width: 665px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    }
+    .slick-next.slick-arrow::after{ 
+        right: 480px;
+    }
+    .slick-prev.slick-arrow::after{   
+        left: 475px;
+    }
+}
+

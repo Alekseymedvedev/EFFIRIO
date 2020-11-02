@@ -1,0 +1,93 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  font-family: 'Montserrat' , sans-serif;
+  overflow-x: hidden;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  text-align: center;
+}
+.title{
+  margin-bottom: 30px;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+}
+span{
+  color: #7252DC;
+}
+.text{
+  margin-bottom: 30px;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2C2D31;
+}
+.btn{
+  padding: 10px 0px;
+  max-width: 300px;
+  width: 100%;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;  
+  background-color: #7252DC;  
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn__whatsapp{
+    display: none;
+    max-width: 300px;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;  
+    background-color: #77DC52;  
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+img{
+  width: 100%;
+}
+
+
+

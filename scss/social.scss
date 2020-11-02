@@ -1,0 +1,133 @@
+.social{
+    background: #F5F6FA;
+    padding: 15px 30px 15px 30px;
+    &__sub-text{
+        margin-bottom: 10px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img
+        {max-width: 200px;
+            width: 100%;
+            
+        }
+    }
+    &__item{
+        width: 85px;
+        margin-right: 24px;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+     
+    }
+
+    img{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 480px;
+        width: 100%;
+    }
+}
+@media (min-width: 576px){
+ .social{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__box-btn{
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    &__title{
+        span{
+            display: block;
+        }
+    }
+ }
+}
+
+@media (min-width: 992px){
+    .social{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &__inner{
+            position: relative;
+        }
+        &__title{
+            span{
+                display: block;
+            }
+        }
+        &__text{
+            margin: 0 auto;
+            margin-bottom: 65px;
+            max-width: 863px;
+        }
+        &__sub-text-bottom{
+            margin-top: 50px;
+        }
+        &__box-btn{
+            margin: 0 auto;
+        }
+        &__item1{
+            position: absolute;
+            top: 160px;
+            left: 140px;
+            text-align: center;
+        }
+        &__item2{
+            position: absolute;
+            top: 160px;
+            right: 160px;
+        }
+        &__item3{
+            position: absolute;
+            bottom: 300px;
+            left: 40px;
+        }
+        &__item4{
+            position: absolute;
+            bottom: 300px;
+            right: 40px;
+        }
+    }
+}
+
+
+@media (min-width: 1200px){
+    .social{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        &__text{
+            margin: 0 auto;
+            margin-bottom: 65px;
+            max-width: 863px;
+            font-size: 24px;
+        }
+        &__sub-text-bottom{
+            margin-top: 50px;
+        }
+        &__box-btn{
+            margin: 0 auto;
+        }
+        &__item1{
+            top: 170px;
+            left: 200px;
+        }
+        &__item2{
+            top: 170px;
+            right: 210px;
+        }
+        &__item3{
+            bottom: 300px;
+            left: 120px;
+        }
+        &__item4{
+            bottom: 300px;
+            right: 140px;
+        }
+    }
+}
